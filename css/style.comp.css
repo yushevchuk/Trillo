@@ -16,8 +16,17 @@ Grey dark 3: #999
 
 */
 * {
-  padding: 0;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 body {
-  background-color: #eb2f64; }
+  background-color: #FF3366; }
