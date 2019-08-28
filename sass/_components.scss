@@ -112,3 +112,14 @@
         margin-right: 1rem;
     }
 }
+
+////////////////////////////////////////////////
+// GALLERY
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
